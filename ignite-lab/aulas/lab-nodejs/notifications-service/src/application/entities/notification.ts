@@ -30,7 +30,7 @@ export class Notification {
         this.props.recipientId = recipientId; 
     }
 
-    public getrecipientIdt(): string {
+    public get recipientId(): string {
         return this.props.recipientId;
     }
 
@@ -46,7 +46,7 @@ export class Notification {
         this.props.category = category; 
     }
 
-    public get categoryt(): string {
+    public get category(): string {
         return this.props.category;
     }
 
